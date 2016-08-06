@@ -6,7 +6,7 @@ var food = ["pizza","sushi","pasta","fried chicken"];
 $("body").on('click', ".food", function(){
 	$("#showGif").empty();
 	var food = $(this).attr("data-value");
-	var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=dc6zaTOxFJmzC&limit=24";
+	var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=dc6zaTOxFJmzC&limit=24";
 
 $.ajax({url: queryUrl, method: 'GET'}).done(function(response) {
 	var x = response.data;

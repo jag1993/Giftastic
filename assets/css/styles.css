@@ -2,6 +2,24 @@
 	width:500px;
 }
 
+.panel{
+	background-image: url("../../assets/images/background-panel.jpg");
+}
+
+label{
+	color:#5F9EA0;
+	font-size:50px;
+}
+
+
+body{
+	background-image: url("../../assets/images/background.jpg");
+}
+
+img{
+	padding:50px;
+	margin: 0 auto;
+}
 
 #form{
 	margin-left: 300px;

@@ -4,6 +4,10 @@
 
 .panel{
 	background-image: url("../../assets/images/background-panel.jpg");
+	clear:both;
+	padding:100px;
+	width:600px;
+	margin: 0 auto;
 }
 
 label{
@@ -17,7 +21,6 @@ body{
 }
 
 img{
-	padding:50px;
 	margin: 0 auto;
 }
 

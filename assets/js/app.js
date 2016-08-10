@@ -14,7 +14,7 @@ $.ajax({url: queryUrl, method: 'GET'}).done(function(response) {
 		var foodImageDiv = $("<div class='panel col-sm-4'>");
 		var foodImage = $("<img>")
 		var foodImageRating = x[i].rating;
-		foodImage.attr("src", x[i].images.fixed_height.url);
+		foodImage.attr("src", x[i].images.fixed_height_still.url);
 		foodImage.attr("data-state", "still");
 		foodImage.attr("data-still", x[i].images.fixed_height_still.url);
 		foodImage.attr("data-animate", x[i].images.fixed_height.url);
